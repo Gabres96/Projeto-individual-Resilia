@@ -1,0 +1,25 @@
+body{
+    background-image:url("imagens/fundo.png") ;
+}
+header{
+    
+
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    color: rgb(26, 19, 14);
+    font-size: larger;
+}
+
+img{
+    width: 25%;
+    border-radius: 100%;
+    text-align: center;
+    
+}
