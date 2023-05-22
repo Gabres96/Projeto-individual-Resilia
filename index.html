@@ -8,44 +8,75 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header-container">
-        <div class="header">
-            <div class="checkbox-container">
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id="toggle">
-                    <label class="checkbox" for = "toggle">
-                        <div class="traços"></div>
-                        <div class="traços"></div>
-                        <div class="traços"></div>
-                    </label>
-                    <div class="menu"></div>
-                    <nav class="menu-itens"></nav>
-                    <ul>
-                        <li>
-                            <a href="">Sobre mim</a>
-                        </li>
-                        <li>
-                            <a href="">Hobbies e interesses</a>
-                        </li>
-                        <li>
-                            <a href="">Contatos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
+    <header>
+        <nav class="eu-header">
+            <div class="a-2">
+                <a href="">Sobre mim</a>
+                <a href="">Interesses e hobbies</a>
+                <a href=""> Contato</a>
+            </div>    
+        </nav>
         
-        <h1>Gabriel Elias</h1>
-        <h2>Estudante FullStack</h2>
-        <div class="contatos">
-            <a href="#">Linkedin</a>
-            <a href="#">Github</a>
-            <a href="#">instagram</a>
-        </div>
+        <section class="header-container">
+        <div class="eu">
+            <h1>*****Gabriel Elias*****</h1>
+            
+            <h2>Estudante FullStack</h2>
+            <div class="redesSociais">
+                <a href="https://www.linkedin.com/in/gabriel-elias-439340160/">Linkedin</a>
+                <a href="https://github.com/Gabres96">Github</a>
+                <a href="https://www.instagram.com/_gabres_/">instagram</a>
+            </div>
+        </section>
     </header>
     <main class="container">
+        <div class="card-container">
+            <div class="sobreMim">
+                <h2>Sobre Mim</h2>
+                <p>Tenho 26 anos e moro em Curitiba. Cursei tecnico em admnistração no meu ensino médio.</p>
 
+                <p>há alguns anos estou na área de Custumer Experiance/Customer Sucess e já trabalhei em algumas Startups Grandes em Curitiba, como MadeiraMadeira e mais recentemente EBANX.</p>
+
+                <p>Desde 2022, resolvi iniciar uma transição de carreira e escolhi Desenvolvimento Web para ser meu futuro e me desenvolver profissionalmente, desde então iniciei o Curso de Analise e Desenvolvimento de sistemas e faço curso de JavaScript e React.</p>
+
+                <p>Atualmente ganhei a bolsa para aprender Desenvolvimento FullStack pela resilia com parceira com o EBANX, que fornece toda a estrutura e nos ajuda a manter o foco 100% em aprender.</p>
+                
+            </div>
+            <div class="interesses">
+                <h2>Interesses e hobbies</h2>
+                <p>Sou uma pessoa que Adora tecnlogia e jogos e desde 2016 jogo e acompanho Counter Strike, inclusive já viajei para ver o Major de CSGO no Rio De Janero em 2022.</p>
+                <p>Também Curto muito esportes, então acompanho sempre Futebol e basquete e regularmente gosto de jogar futebol e ir academia. </p>
+
+                <p>Eu também sou do time que adora Cerveja e barzinho, então sempre que posso, gosto de sair aos finais de semana com amigos pra encontrar um samba, pagode ou hiphop nas noites curitibanas.</p>
+                <div class="imagens">
+                    <img src="imagens/major.jpg" alt="majorcsgo">
+                    <img src="imagens/gym.jpg" alt="gym">
+                    <img src="imagens/gaucho.jpg" alt="gaucho">
+                </div>
+    
+            </div>
+            <div class="contatos">
+                <h2>Contatos</h2>
+                <p>Caso queira entrar em contato, pode me procurar pelas redes sociais ou pelo meu e-mail, onde você pode deixar sua mensagem</p>
+
+                <form action="e-mail" method="get"></form>
+                    <fieldset>
+                        <legend>Seu contato</legend>
+                        <p>
+                            <label for="inome">nome</label>
+                            <input type="text" name="nome" id="inome">
+                        </p>
+                        <p>
+                            <label for="iemail">E-mail</label>
+                            <input type="email" name="email" id="iemail">
+                        </p>
+                        <p>
+                            <input type="submit" value="enviar">
+                        </p>
+                    </fieldset>
+            </div>
+            
+        </div>  
     </main>
     <footer class="footer">
 
